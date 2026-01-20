@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cloud Cost Optimization Report</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; }
+    .summary { background: #f4f6f7; padding: 15px; }
+    img { max-width: 100%; margin-top: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #eee; }
+  </style>
+</head>
+<body>
+
+<h1>Cloud Cost Optimization Report</h1>
+
+<div class="summary">
+  <p><b>Client:</b> Sample SME</p>
+  <p><b>Period:</b> Last 30 Days</p>
+  <p><b>Estimated Savings Potential:</b> <b>30–45%</b></p>
+</div>
+
+<h2>AWS Cost Overview</h2>
+<img src="aws_costs.png" alt="AWS Cost Chart">
+
+<h2>Idle Compute Resources</h2>
+<table>
+<tr><th>Instance</th><th>Avg CPU %</th><th>Recommendation</th></tr>
+<tr><td>i-0123456789</td><td>1.8%</td><td>Stop or downsize</td></tr>
+<tr><td>i-0987654321</td><td>3.2%</td><td>Schedule or terminate</td></tr>
+</table>
+
+<h2>Recommendations</h2>
+<ul>
+  <li>Downsize idle compute instances</li>
+  <li>Delete orphaned storage volumes</li>
+  <li>Implement auto-scaling and schedules</li>
+  <li>Introduce monthly cost reviews</li>
+</ul>
+
+</body>
+</html>
