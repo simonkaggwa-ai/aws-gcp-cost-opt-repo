@@ -1,0 +1,12 @@
+
+---
+
+# 2️⃣ Python Scripts
+
+## 📌 requirements.txt
+```txt
+boto3
+pandas
+matplotlib
+google-cloud-bigquery
+jinja2
