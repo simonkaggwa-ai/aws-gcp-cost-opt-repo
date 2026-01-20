@@ -1,9 +1,10 @@
 # aws-gcp-cost-opt-repo
 This Cloud Cost Optimization Toolkit is a Python-based solution designed to help orgs identify wasted cloud spend and generate actionable cost-saving recommendations across AWS and Google Cloud Platform (GCP).
+
 # Cloud Cost Optimization Toolkit (AWS & GCP)
 
 ## Overview
-The Cloud Cost Optimization Toolkit is a Python-based solution designed to help
+This Cloud Cost Optimization Toolkit is a Python-based solution designed to help
 SMEs, NGOs, hospitals, and schools identify wasted cloud spend and generate
 actionable cost-saving recommendations across AWS and Google Cloud Platform (GCP).
 
